@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Анастасия Стасенкова](https://up.htmlacademy.ru/htmlcss/17/user/210670).
+* Наставник: [Елена Арутюнян](https://htmlacademy.ru/profile/id106442).
 
 ---
 
