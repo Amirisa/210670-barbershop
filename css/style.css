@@ -1,0 +1,25 @@
+body {
+	font-family: PT Sans Narrow;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	font-weight: 700;
+}
+
+.facilities {
+	font-family: PT Sans Narrow;
+	font-size: 30px;
+	line-height: 42px;
+	color: #000000;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.sort-type {
+	font-family: PT Sans Narrow;
+	font-size: 24px;
+	line-height: 30px;
+	color: #000000;
+	font-weight: 700;
+	text-transform: uppercase;
+}
