@@ -4,6 +4,102 @@ body {
 	line-height: 18px;
 	color: #000000;
 	font-weight: 700;
+	text-transform: uppercase;
+}
+
+* {
+	outline: 2px solid red; 
+}
+
+.clearfix::after {
+	content: "";
+  display: table;
+  clear: both;
+}
+
+.page-header {
+	background-color: #000000;
+}
+
+.main-menu {
+	padding-top: 60px;
+	background-color: #f8f5f2;
+	background-image: url("../img/background-light.jpg");
+	background-repeat: repeat;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10 px;
+}
+
+.page-logo {
+	float: left;
+	width: 111px;
+	padding: 23px 20px 20px 20px;
+
+}
+
+.page-nav {
+	float: left;
+	width: 560px;
+
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+}
+
+.nav-list {
+	padding-left: 20px;
+	padding-top: 27px;
+	margin: 0;
+}
+
+.list-item {
+	float: left;
+	width: 90px;
+	list-style-type: none;
+}
+
+.list-item:first-child {
+	margin-right: 40px;
+}
+
+
+
+.list-item a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.breadcrumps li {
+	display: inline-block;
+}
+
+.sort-list li {
+	list-style-type: none; 
+
+}
+
+.main-sort {
+	float: left;
+	width: 220px;
+	height: 287px;
+}
+
+.catalog {
+	float: right;
+	width: 710px;
+}
+
+.catalog-item {
+	display: inline-block;
+	width: 220px;
+	vertical-align: top;
 }
 
 .facilities {
@@ -12,7 +108,7 @@ body {
 	line-height: 42px;
 	color: #000000;
 	font-weight: 700;
-	text-transform: uppercase;
+	margin-top: 0; 
 }
 
 .sort-type {
@@ -21,5 +117,41 @@ body {
 	line-height: 30px;
 	color: #000000;
 	font-weight: 700;
-	text-transform: uppercase;
+}
+
+.product-pictures {
+	float: left;
+	width: 460px;
+}
+
+.product-description {
+	float: right;
+	width: 390px;
+}
+
+.product-picture {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.page-footer{
+	background-color: #222222;
+	background-image: url("../img/background-dark.jpg");
+	background-repeat: repeat;
+}
+
+.footer-contacts {
+	float: left;
+	width: 310px;
+	margin-right: 80px;
+}
+
+.footer-social {
+	float: left;
+	width: 160px;
+}
+
+.footer-copyright {
+	float: right;
+	width: 150px;
 }
